@@ -1,9 +1,9 @@
 <?php 
 require_once ('config.php');
-$title = '3. Nacht der Druiden';
-$app_name = 'druidnight';
+$title = '40. Nacht der Häuptlinge';
+$app_name = 'chieftainnight';
 $lang = "de";
-$description = 'Einladung zur dritten Nacht der Druiden';
+$description = 'Einladung zur ersten Nacht der Häuptlinge';
 $author = 'Marco Egli';
 ?>
 <!doctype html>
@@ -28,7 +28,7 @@ $author = 'Marco Egli';
         <link rel="apple-touch-icon" href="app.<?php echo $app_version; ?>/<?php echo $app_name; ?>/apple-touch-icon.png">
 
         <!-- All JavaScript loaded asynchronous, except for Modernizr which enables HTML5 elements & feature detects -->
-        <script src="jslib/modernizr/modernizr-<?php echo $jslib_modernizr_version; ?>.min.js"></script>
+        <!-- <script src="jslib/modernizr/modernizr-<?php echo $jslib_modernizr_version; ?>.min.js"></script> -->
 
         <!-- Define the application name and version in a global APP object to access it for module paths -->
         <script type="text/javascript">
@@ -38,9 +38,9 @@ $author = 'Marco Egli';
         </script>        
 
         <!-- Grab Yahoo CDN's YUI -->
-        <script src="//yui.yahooapis.com/<?php echo $jslib_yui_version; ?>/build/yui/yui-min.js"></script>
+        <!-- <script src="//yui.yahooapis.com/<?php echo $jslib_yui_version; ?>/build/yui/yui-min.js"></script> -->
         <!-- Loading the application bootstrap script -->
-        <script src="app.<?php echo $app_version; ?>/<?php echo $app_name; ?>/<?php echo $app_name; ?>.js"></script>
+        <!-- <script src="app.<?php echo $app_version; ?>/<?php echo $app_name; ?>/<?php echo $app_name; ?>.js"></script> -->
 
         <!-- CSS Stylesheets -->
         <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/combo?<?php echo $jslib_yui_version; ?>/cssbase/cssbase-min.css&<?php echo $jslib_yui_version; ?>/cssreset/cssreset-min.css&<?php echo $jslib_yui_version; ?>/cssnormalize/cssnormalize-min.css&<?php echo $jslib_yui_version; ?>/cssgrids/cssgrids-min.css&<?php echo $jslib_yui_version; ?>/cssfonts/cssfonts-min.css">
@@ -53,40 +53,36 @@ $author = 'Marco Egli';
 
             <header>
                 <div class="printonly"><img src="app.<?php echo $app_version; ?>/<?php echo $app_name; ?>/images/shamrock-print.jpg"></div> 
-                <h1>3. Nacht der Druiden</h1>
-                <p>31. August 2014</p>
+                <h1>40. Nacht der Häuptlinge</h1>
+                <p>29. August 2015</p>
             </header>
 
             <div id="content">
                 <div class="textblock">
-                    <p>Bei trockenem Wetter ab 15 Uhr bis Sonnenuntergang zwischen den Drumlins von Hinwil</p>
+                    <p>Bei jedem Wetter ab 15 Uhr bis Sonnenuntergang hoch über den Drumlins im Schützenhaus Wernetshausen</p>
                 </div>
 
                 <div class="textblock screenonly">
-					<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155144681&color=ff5500"></iframe>
+                    <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/197818784&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
                 </div>
 
                 <div class="textblock">
-                    <p>Für magische Stimmung an meinem Geburtstagsfest sorgen wir in diesem Jahr selbst. Nehmt eure Instrumente mit, um das Riet mit Musik zu füllen. Natürlich sind nicht nur keltische Instrumente willkommen und ihr könnt auch ganz unmusikalisch mitfeiern.</p>
-                </div>  
-
-
-                <div class="textblock">
-                    <p>Eine kleine Feuerstelle, Wurst und Bier sind vorhanden. Weitere Grilladen, Beilagen und Nachtisch bitte selber mitbringen. Hilfreich ist auch eine Picknickdecke, da es wenig Sitzgelegenheiten hat.</p>
+                    <p><a href="http://bartwurst.ch/" target="_blank">B<span style="color:rgb(204, 68, 0);">art</span>wurst</a>, Bier und Brot sind für alle vorhanden. Danke im Voraus für das Mitbringen von Beilagen, Desserts oder weiteren Grilladen für ein üppiges Buffet (einfach mir melden, damit nicht alle einen feinen Tiramisu mitbringen ;).</p>
                 </div>  
                 
                 <div class="textblock screenonly">  
-                    <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/140829226&color=ff5500"></iframe>
+					<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/109610933&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
                 </div>  
 
                 <div class="textblock">        
-                    <p>Anmeldung mit Anzahl der Personen <span class="screenonly">für eingeladene Gäste</span> per E-Mail an <a href="mailto:eglinetwork@gmail.com">eglinetwork@gmail.com</a> bis Mitte August 2014.</p>
+                    <p>Anmeldung mit Anzahl der Personen per E-Mail an <a href="mailto:eglinetwork@gmail.com">eglinetwork@gmail.com</a> bis Mitte August.</p>
                 </div>    
 
 
                 <div class="textblock">
-                    <img src="app.<?php echo $app_version; ?>/<?php echo $app_name; ?>/images/lageplan.png" width="100%">
-                    <p class="screenonly small"><a href="http://maps.google.ch/maps?f=d&source=s_d&saddr=&daddr=47.294733,8.822953&hl=de&geocode=&mra=mift&mrsp=1&sz=17&sll=47.29385,8.822891&sspn=0.006447,0.016512&ie=UTF8&t=h&z=17" target="_blank">Ort des Parkplatzes</a> für die Routenplanung mit dem Auto (Achtung: Fahrverbot auf dem Pilgerweg aus Bossikon. Über Gossauerstrasse anfahren.)</p>
+					<p class="small">Zu Fuss ab oder bis zum Bahnhof Hinwil oder ganz einfach mit dem Bus bis zur Haltestelle <a href="http://www.sbb.ch/fahrplan.html" target="_blank">Wernetshausen, Dorf</a></p>
+                    <a href="app.<?php echo $app_version; ?>/<?php echo $app_name; ?>/images/lageplan.png"><img src="app.<?php echo $app_version; ?>/<?php echo $app_name; ?>/images/lageplan.png" width="100%"></a>
+                    <p class="screenonly small">Für die <a href="https://www.google.ch/maps/dir/''/sch%C3%BCtzenhaus+wernetshausen/data=!4m5!4m4!1m0!1m2!1m1!1s0x479ab855a9e189bd:0x185939c9956e4926?sa=X&ei=QsBcVdK3AsmcsgHe1YDwBg&ved=0CHEQ9RcwDA" target="_blank">Routenplanung</a> mit dem Auto. Bitte beim Schulhaus parkieren.</p>					
                 </div> 
 
                 <div class="textblock screenonly">        
@@ -96,8 +92,6 @@ $author = 'Marco Egli';
 
             <footer>
             </footer>
-
-
 
         </div> 
         <!--! end of #container -->
