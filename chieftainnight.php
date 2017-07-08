@@ -59,15 +59,15 @@ $author = 'Marco Egli';
 
             <div id="content">
                 <div class="textblock">
-                    <p>Bei jedem Wetter ab 15 Uhr bis Sonnenuntergang hoch über den Drumlins im Schützenhaus Wernetshausen</p>
+                    <p>Bei jedem Wetter ab 16 Uhr bis Sonnenuntergang hoch über den Drumlins im Schützenhaus Wernetshausen</p>
                 </div>
 
                 <div class="textblock screenonly">
-                    <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/197818784&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+                    <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/205432267&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
                 </div>
 
                 <div class="textblock">
-                    <p><a href="http://bartwurst.ch/" target="_blank">B<span style="color:rgb(204, 68, 0);">art</span>wurst</a>, Bier und Brot sind für alle vorhanden. Danke im Voraus für das Mitbringen von Beilagen, Desserts oder weiteren Grilladen für ein üppiges Buffet (einfach mir melden, damit nicht alle einen feinen Tiramisu mitbringen ;).</p>
+                    <p><a href="http://bartwurst.ch/" target="_blank">B<span style="color:rgb(204, 68, 0);">art</span>wurst</a>, Bier und Brot und Musik sind für alle vorhanden. Danke im Voraus für das Mitbringen von Beilagen, Desserts oder weiteren Grilladen für ein üppiges Buffet (einfach mir melden, damit nicht alle einen feinen Tiramisu mitbringen ;).</p>
                 </div>  
                 
                 <div class="textblock screenonly">  
