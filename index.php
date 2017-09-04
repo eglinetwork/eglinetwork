@@ -65,9 +65,9 @@ $author = 'Marco Egli';
                         <article>
                             <h1>Personal Projects</h1>
                             <div class="banner blue">Play <a href="pairs">Photo Pairs</a> with beautiful pictures from Flickr</div>      
-							<div class="banner blue">What time do you need to solve the <a href="https://egli.io/tschutti">tschutti tschallenge</a>?</div>             							
+							<div class="banner blue">What time do you need to solve the <a href="tschutti">tschutti tschallenge</a>?</div>
+                            <div class="banner blue">Learn more about the basic course in <a href="gk">Muki-Turnen</a></div>
                             <div class="banner blue">Visit the most entertaining <a href="http://www.turnshow.ch/" target="_blank">Turnshow</a> in Switzerland</div>
-                            <div class="banner blue">Learn more about activities for <a href="http://familienvereine-bezirk-hinwil.ch/" target="_blank">families</a> around Zürich</div>
                         </article>
                     </div>
                     <div id="tabAbout">

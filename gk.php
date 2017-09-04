@@ -51,18 +51,18 @@
     </style>
 </head>
 <body>
-<div class="container">
+<div class="container" itemscope itemtype="http://schema.org/Event">
     <div class="header clearfix">
 
         <h3 class="text-muted">Kursnummer 18235.40</h3>
     </div>
 
     <div class="jumbotron">
-        <h1>Grundkurs, Leiter 1 im Elki-, Vaki- und Muki-Turnen</h1>
+        <h1 itemprop="name">Grundkurs, Leiter 1 im Elki-, Vaki- und Muki-Turnen</h1>
         <p class="lead">Theorie- und Praxis-Ausbildung gemäss dem offiziellen Lehrgang des STV für Muki-Turnen.</p>
-        <p><img src="gk-assets/Mailkopf_GK-Kerenzerberg_zh.jpg" style="width:100%;"/></p>
+        <p><img itemprop="image" src="gk-assets/GK-Kerenzerberg18_210x130-page-001.jpg" style="width:100%;"/></p>
         <p><a class="btn btn-lg btn-success"
-              href="http://www.ztv.ch/site/index.php?option=com_chronoforms&chronoform=kurs_anmeldung_17235_40"
+              href="http://www.ztv.ch/site/index.php?option=com_chronoforms&chronoform=kurs_anmeldung_18235_40"
               role="button">Anmelden</a></p>
     </div>
 
@@ -76,18 +76,19 @@
                 verwendet</p>
 
             <h3>Kursziel und -inhalt</h3>
-            <p>Die Teilnehmerinnen und Teilnehmer werden für die Leitertätigkeit ausgebildet und motiviert. Nach dem
-                Kurs sind sie fähig, selbständig eine eigene Gruppe zu leiten.</p>
-            <p>Vermittelt werden insbesondere die Grundlagen zur Organisation einer Elki-Gruppe. Die Anwendung von
-                Unterlagen zur Lektionsvorbereitung wird geübt und methodische Kompetenzen mit vielen praktischen
-                Beispielen geschult. Informationen über den <a href="http://www.ztv.ch/">Zürcher Turnverband (ZTV)</a>, den <a href="http://grtv.ch/">Graubündner Turnverband (GRTV)</a>,
-                den <a href="http://www.tgtv.ch/">Thurgauer Turnverband (TGTV)</a>, den <a href="https://sgtv.ch/">St. Galler Turnverband (SGTV)</a>,
-                den <a href="http://shtv.ch/">Schaffhauser Turnverband (SHTV)</a> und
-                den <a href="http://www.stv-fsg.ch/">Schweizerischen Turnverband (STV)</a> und Spiel und Spass für die eigene Turnfertigkeit runden das
-                Programm ab.</p>
+            <div itemprop="description">
+                <p>Die Teilnehmerinnen und Teilnehmer werden für die Leitertätigkeit ausgebildet und motiviert. Nach dem
+                    Kurs sind sie fähig, selbständig eine eigene Gruppe zu leiten.</p>
+                <p>Vermittelt werden insbesondere die Grundlagen zur Organisation einer Elki-Gruppe. Die Anwendung von
+                    Unterlagen zur Lektionsvorbereitung wird geübt und methodische Kompetenzen mit vielen praktischen
+                    Beispielen geschult. Informationen über den <a href="http://www.stv-fsg.ch/">Schweizerischen Turnverband (STV)</a>,
+                    den <a href="http://www.ztv.ch/">Zürcher Turnverband (ZTV)</a>, die kooperierenden Turnverbände der Ostschweiz
+                    und Spiel und Spass für die eigene Turnfertigkeit runden das
+                    Programm ab.</p>
+            </div>
 
             <h3>Zielgruppe</h3>
-            <p>Offen für alle ab 18 Jahren mit Freude im Umgang mit Eltern und kleinen Kindern. Keine Kenntnisse erforderlich.</p>
+            <p itemprop="audience">Offen für alle ab 18 Jahren mit Freude im Umgang mit Eltern und kleinen Kindern. Keine Kenntnisse erforderlich.</p>
 
             <h3>Einige Inhalte aus dem Stundenplan</h3>
             <p>
@@ -105,6 +106,7 @@
 
         <div class="col-lg-6">
             <h3>Datum</h3>
+            <meta itemprop="startDate" content="2018-03-16T15:00">
             <p>
                 Teil 1: 16.03.-18.03.2018 | Freitag 15:00 – Sonntag 17:00 Uhr<br/>
                 Teil 2: 06.04.-08.04.2018 | Freitag 15:00 – Sonntag 16:00 Uhr
@@ -112,7 +114,10 @@
             <p>Der Kurs dauert insgesamt 6 Tage (2 x 3 Tage) und muss für die Anerkennung zum Muki Leiter 1 als Ganzes absolviert werden.</p>
 
             <h3>Ort und Anreise</h3>
-            <p><a href="http://www.szk.ch/">Sportzentrum Kerenzerberg</a>, Panoramastrasse 8, 8757 Filzbach</p>
+            <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                <p><a href="http://www.szk.ch/" itemprop="url"><span itemprop="name">Sportzentrum Kerenzerberg</span></a>, <span itemprop="address">Panoramastrasse 8, 8757 Filzbach</span></p>
+            </div>
+
 
             <h3>Kosten</h3>
             <p>Kursunterlagen inkl. Lehrmittel, Verpflegung und die Übernachtungen in den komfortablen Zimmern des
@@ -120,20 +125,22 @@
                 den Kurskosten inklusive. Einzelzimmer sind gegen einen kleinen Aufpreis erhältlich.
             </p>
             <ul>
-                <li>CHF 350 für Mitglieder des ZTV und der kooperierenden Verbände; <br>voraussichtlich GRTV, SGTV, SHTV, TGTV</li>
+                <li>CHF 350 für Mitglieder des ZTV
+                <li>CHF 350 für Mitglieder der kooperierenden Turnverbände: GRTV (voraussichtlich auch SGTV, SHTV, TGTV)</li>
                 <li>CHF 475 für übrige STV-Mitglieder</li>
                 <li>CHF 700.00 für Nichtmitglieder</li>
             </ul>
 
-            <h3>Kursleitung</h3>
+            <h3>Kursleitung und Organisation</h3>
+            <p>Organisation, Administration und Leitung duch den ZTV in Zusammenarbeit mit den kooperierenden Turnverbänden.</p>
             <p>Anita Jenny (ZTV), Anita Spengler (ZTV), Barbara Haueter (TGTV), Fabienne Reiser (SGTV), Marco Egli (ZTV), Miriam Wunderlin (SHTV), Nicole Schulz (GRTV). Priska Ochsner (SHTV)</p>
 
             <h3>Kontakt und Fragen</h3>
             <p>Marco Egli, <a href="mailto:eglinetwork@gmail.com">eglinetwork@gmail.com</a></p>
 
             <h3>Anmerkungen und Anmeldung</h3>
-            <!-- <p><a href="http://www.ztv.ch/site/index.php?option=com_chronoforms&chronoform=kurs_anmeldung_18235_40">Anmelden auf der Website des ZTV</a></p> -->
-            <p>Die Teilnehmer erhalten vor Kursbeginn weitere Informationen. Die Teilnehmerzahl ist beschränkt.</p>
+            <p><a href="http://www.ztv.ch/site/index.php?option=com_chronoforms&chronoform=kurs_anmeldung_18235_40">Anmelden auf der Website des ZTV</a></p>
+            <p>Die Teilnehmer erhalten vor Kursbeginn weitere Informationen. Die Teilnehmerzahl ist beschränkt. Anmeldeschluss ist am 23.02.2018.</p>
         </div>
     </div>
 
